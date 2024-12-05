@@ -1,0 +1,54 @@
+.DivWithPhoto{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+    .ArguePhotoControl{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        .ArguePhoto{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 534px;
+            z-index: 1;
+            background-image: url('../../assets/img/photo-6-a.jpg');
+        }
+    }
+    .PurpleCube{
+        display: flex;
+        background-color: #D5B3FF;
+        position: absolute;
+        width: 67%;
+        height: 97%;
+        z-index: 0;
+    }
+    .GroupPhotoControl{
+        display: flex;
+        z-index: 1;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+        .GroupPhoto{
+            position: absolute;
+            right: 0;
+            z-index: 1;
+            width: 667px;
+            height: 667px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-image: url('../../assets/img/photo-7.jpg');
+        }
+        
+    }
+}

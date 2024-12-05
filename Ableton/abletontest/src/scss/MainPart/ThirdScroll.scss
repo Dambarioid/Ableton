@@ -1,0 +1,56 @@
+.FirstDivWithPhoto{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 1000px;
+}
+.FirstControl{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 50%;
+    z-index: 1;
+}
+.FirstPhoto {
+    background-image: url('../../assets/img/photo-1.jpg');
+    background-position: 50% 50%; 
+    background-size: cover;
+    width: 83%;
+    height: 65%;
+    position: relative;
+    margin-left: 120px;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+.SecControl{
+    z-index: 1;
+    right: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+.YellowCube{
+    position: absolute;
+    right: 0;
+    z-index: 0 ;
+    display: flex;
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: #FBFFA7 ;
+}
+.SecPhoto{
+    background-image: url('../../assets/img/photo-2.jpg');
+    background-position: 50% 50%; 
+    background-size: cover;
+    width: 68%;
+    height: 37%;
+}

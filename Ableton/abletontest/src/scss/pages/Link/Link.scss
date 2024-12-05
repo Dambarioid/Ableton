@@ -1,0 +1,228 @@
+.Link {
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  .PlayTogethereCtrl {
+    background-image: url("../../../assets/img/LinkHeader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 870px;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    .PlayTogethere {
+      position: relative;
+      width: 80%;
+      height: 25%;
+      margin-left: 100px;
+      margin-top: 40px;
+
+      .LinkName {
+        color: white;
+        font-size: 100px;
+        font-weight: 500;
+        letter-spacing: 0px;
+        font-size: 100px;
+      }
+
+      .Poppy {
+        color: aqua;
+        font-weight: 500;
+        letter-spacing: 0px;
+        font-size: 100px;
+      }
+    }
+  }
+
+  .LinkStrangeTextCtrl {
+    margin-bottom: 150px;
+    margin-top: 150px;
+    height: 492px;
+    width: 100%;
+    display: flex;
+    position: relative;
+
+    .LinkStrangeText {
+      float: right;
+      background-color: white;
+      z-index: 0;
+      width: 32%;
+      margin-top: -300px;
+      font-size: 26px;
+      line-height: 40px;
+      font-weight: 490;
+      letter-spacing: 2px;
+      padding: 134px 134px 0px 134px;
+
+      p {
+        margin-bottom: 60px;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+        font-size: 24px;
+        letter-spacing: 0px;
+      }
+    }
+
+    .WorkLinks {
+      margin-top: 100px;
+      height: 492px;
+      width: 800px;
+    }
+  }
+
+  .Connection {
+    display: flex;
+    margin-top: 150px;
+    position: relative;
+    width: 100%;
+    height: 1200px;
+
+    .Blackscreen {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 100%;
+      background-color: black;
+      width: 50%;
+      float: right;
+
+      .BlackscreenText {
+        width: 50%;
+        color: white;
+        margin-left: 200px;
+
+        h1 {
+          font-weight: 500;
+        }
+
+        p {
+          line-height: 30px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+
+    .LaptopsCtrl {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 50%;
+      position: relative;
+
+      .Laptops {
+        background-image: url("../../../assets/img/photo-live.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 920px;
+        z-index: 1;
+        width: 920px;
+        position: absolute;
+      }
+    }
+  }
+
+  .LinkHelps {
+    display: flex;
+    width: 100%;
+    height: 832px;
+
+    .AppsInStd {
+      width: 933px;
+      height: 535px;
+
+      h1 {
+        width: 100%;
+        font-size: 17px;
+      }
+    }
+
+    .HelpViaApps {
+      display: flex;
+      flex-direction: column;
+      width: 650px;
+      height: 570px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        font-weight: 490;
+        width: 400px;
+        align-items: center;
+      }
+
+      p {
+        line-height: 30px;
+        font-size: larger;
+        height: 240px;
+        width: 400px;
+      }
+    }
+  }
+
+  .ForDevelopers {
+    height: 1200px;
+    width: 100%;
+    display: flex;
+
+    .PurpleSqCtrl {
+      height: 100%;
+      width: 50%;
+      background-color: #d5b3ff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .PurpleSq {
+        width: 58%;
+        height: 50%;
+
+        h1 {
+          font-size: 30px;
+          letter-spacing: 0px;
+          font-weight: 450;
+          margin-bottom: 30px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 19px;
+          letter-spacing: 1px;
+          line-height: 27px;
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .HeadPhonesCtrl {
+      position: relative;
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .HeadPhones {
+        z-index: 0;
+        height: 920px;
+        width: 920px;
+        position: absolute;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../../../assets/img/photo-build.jpg");
+      }
+    }
+  }
+}

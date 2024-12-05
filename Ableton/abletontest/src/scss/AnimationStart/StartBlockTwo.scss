@@ -1,0 +1,12 @@
+.MainSpanAnim2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .SpanHor1, .SpanHor2,.SpanHor3, .SpanHor4{
+        background-color: #fff;
+        height: 12%;
+        width: 100%;
+    }
+}

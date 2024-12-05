@@ -1,0 +1,71 @@
+.BottomPage{
+    border-top: 3px black solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    height: 830px;
+    width: 100%;
+    .ControlFoot{
+        width: 84%;
+        .TitleBottom{
+            width: 100%;
+            margin-bottom: 100px;
+            h1{
+                font-weight: 500;
+                font-size: 70px;
+            }
+        }
+        .Differents{
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+            ul{
+                padding: 0;
+                li{
+                    .InputControl{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        padding-bottom: 10px;
+                        input{
+                            
+                            width: 80%;
+                            border: none;
+                            background-color: #eee;
+                            padding: 20px;
+                            &::placeholder{
+                                font-size: 20px;
+                            }
+                        }
+                        button{
+                            background-color: blue;
+                            color: #fff;
+                            font-size: 20px;
+                            width: 30%;
+                            padding: 17px;
+                        }
+                    }
+                    margin-top: 10px;
+                    font-weight: 300;
+                    font-size: 20px;
+                    list-style: none;
+                    label{
+                        font-weight: 500;
+                    }
+                    a{
+                        color: orange;
+                        text-decoration: none;
+                        img{
+                        
+                        width: 40px;
+                        height: 30px;
+                        .Instagram{
+                            background-color: black;
+                            }
+                        }
+                    }
+                }
+            }  
+        }
+    }
+}

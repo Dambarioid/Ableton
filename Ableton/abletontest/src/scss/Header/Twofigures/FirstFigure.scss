@@ -1,0 +1,16 @@
+.AllVerticalLines{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    height: 50%;
+    width: 50%;
+    gap: 5px;
+    transition: 0.5s;
+    
+    span {
+        background-color: black;
+        height: 100%;
+        width: 90%;
+    }
+}

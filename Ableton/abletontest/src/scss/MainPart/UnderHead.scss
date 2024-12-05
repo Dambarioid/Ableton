@@ -1,0 +1,22 @@
+.UnderHead{
+    border-top: 2px #f3f3f3 solid;
+    position: relative;;
+    justify-content: center;
+    margin-top: 8px;
+    li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+        a{
+            font-size: 19px;
+            list-style: none;
+            font-size: 14px;
+            text-decoration: none;
+            color: black;
+            transition: 1s;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+}

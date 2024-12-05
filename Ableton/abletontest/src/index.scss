@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    font-family: 'Outfit',sans-serif;
+}
+html, body, .Root {
+    overflow: visible;
+    margin: 0;
+    height: autn;
+    width: 100%;
+}
+body{
+    overflow-y: visible;
+    display: flex;
+    justify-content: center ;
+    background-color: #F3F3F3;
+}
+.Root{
+    overflow-y: visible;
+    position: relative;
+    height: auto;
+    width: 83%;
+    background-color: #fff;
+}
+.SiteDiv{
+    overflow-y: visible;
+    position: relative;
+    width: 100%;
+    height: auto;
+}

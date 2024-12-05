@@ -1,0 +1,43 @@
+.ListOfSet{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li:nth-child(8){
+        a{
+            color: #FF764D;
+        }
+        margin-right: 400px;
+    }
+    li:nth-child(9){
+        a{
+            color: blue;
+        }
+    }
+    li{
+        position: relative;
+        margin-right: 40px;
+        list-style: none;
+        a{
+            font-weight: 500;
+            font-size: 1.25em;
+            text-decoration: none;
+            color: black;
+            &::after{
+                content: "";
+                position: absolute;
+                width: 0;
+                transition: 0.5s;
+                height: 3px;
+                border-radius: 4px;
+                background-color: orange;
+                margin-bottom: -3px;
+                bottom: 0;
+                left: 0;
+            }
+            &:hover::after{
+                width: 100%;
+            }
+        }
+    }
+}

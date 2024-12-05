@@ -1,0 +1,15 @@
+.AllHorizontalLine{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 50%;
+    gap: 3px;
+    transition: 0.5s;
+    span {
+        border-radius: 2px;
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+}

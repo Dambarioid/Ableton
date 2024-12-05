@@ -1,0 +1,13 @@
+header{
+    background-color: rgb(255, 255, 255, 0.8);
+    z-index: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    .LinkLogo{
+        margin-left: 30px;
+    }
+}

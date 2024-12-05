@@ -1,0 +1,18 @@
+.Allparts{
+    height: 100%;
+    width: 5%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    &:hover{
+        cursor: pointer;
+    }
+    &:hover .AllVerticalLines{
+        translate: 38px;
+    }
+    &:hover .AllHorizontalLine{
+        translate: -38px;
+    }
+}
